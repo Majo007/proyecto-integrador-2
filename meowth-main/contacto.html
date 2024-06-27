@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-ico">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/styles/contacto.css" />
+    <title>MEOWTH</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>MEOWTH</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="misiones.html">Misiones</a></li>
+          <li><a href="audiovisuales.html">Audiovisuales</a></li>
+          <li><a class="active" href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="contenedor">
+      <h2>¿Querés pertenecer al Club de Fans de Meowth?</h2>
+      <p>
+        Registrate y recibir todas las novedades sobre Meowth-Encuentros de los
+        Meowth-Fans, también obtené Meowth-Descuentos en Meowth-Ropa,
+        Meowth-Accesorios y más... Pero ojo... no cualquiera forma parte de
+        nuestro Meowth-Club, así que ¡tendrás que convencernos! Allá vamos...
+      </p>
+      <form>
+        <label for="nombre">Decinos tu Meowth-Nombre: </label>
+        <input
+          type="text"
+          id="nombre"
+          name="nombre"
+          placeholder="Escribelo aquí"
+          required
+          minlength="3"
+        />
+
+        <label for="mail">Dejanos tu Meowth-Email: </label>
+        <input
+          type="email"
+          id="mail"
+          name="mail"
+          placeholder="Escribelo aquí"
+          required
+        />
+
+        <label for="cel">Tu Cel: </label>
+        <input
+          type="number"
+          id="cel"
+          name="cel"
+          placeholder="Escribí aquí tu numero de celular"
+          required
+        />
+
+        <label for="pais">Tu País: </label>
+        <select name="pais" id="pais">
+          <option value="Argentina">Argentina</option>
+          <option value="Chile">Chile</option>
+          <option value="Bolivia">Bolivia</option>
+          <option value="Perú">Perú</option>
+          <option value="Uruguay">Uruguay</option>
+          <option value="España">España</option>
+          <option value="Colombia">Colombia</option>
+          <option value="Venezuela">Venezuela</option>
+          <option value="Paraguay">Paraguay</option>
+          <option value="Ecuaador">Ecuaador</option>
+        </select>
+        <label for="comentario"
+          >¿Que tan Fans de Meowth sos? Veamos si sos digno/a de pertenecer a
+          nuestro Meowth-Club... ¡Convencenos!
+        </label>
+        <textarea
+          name="comentario"
+          id="comentario"
+          placeholder="Escribí aquí tu Meowth-Carta de solicitud de ingreso"
+        ></textarea>
+
+        <input type="submit" value="Enviar" />
+      </form>
+    </div>
+
+    <footer>
+      <p>Derechos reservados &copy; 2024</p>
+    </footer>
+  </body>
+</html>

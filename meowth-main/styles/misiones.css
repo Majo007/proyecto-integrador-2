@@ -1,0 +1,53 @@
+body{
+    background-image: url(/assets/img/FotosMiau/Fondo_Meowth.jpg);
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+tr,td{
+    
+    border: 2px solid black;
+}
+
+
+table{
+    
+    border-collapse: collapse;
+    border: 2px solid black; 
+    font-size: 2rem;
+    background-color: rgb(237, 241, 245);
+}
+table,th{
+    border: 4px solid black;
+}
+th{
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgb(110, 110, 110);
+    height: 100px;
+}
+
+td{
+    text-align: center;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+h2{
+    text-align: center;
+    margin: 2;
+    padding: 30px;
+    background-color:aqua;
+}
+
+tr:nth-child(even){
+    background-color:aqua;
+}
+tr:nth-child(odd){
+    background-color:rgb(4, 107, 242);
+}
+
+tr:hover{
+    background-color: rgb(163, 239, 167);
+}
